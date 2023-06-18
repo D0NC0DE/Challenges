@@ -5,13 +5,14 @@ body {
   overflow: scroll;
   display: flex;
   height: 100vh;
+  gap: 10px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .whole-card {
-  width: 300px;
+  width: 280px;
   background-color: hsl(0, 0%, 100%);
   border-radius: 24px;
   overflow: hidden;
@@ -21,6 +22,10 @@ body {
   overflow: hidden;
   border-radius: 24px;
 }
+.whole-card img {
+  width: 100%;
+  height: auto;
+}
 
 .info {
   padding: 8px;
@@ -29,7 +34,7 @@ body {
 .info h3 {
   color: hsl(218, 44%, 22%);
   font-weight: 700;
-  font-size: 18px;
+  font-size: 25px;
 }
 .info p {
   color: hsl(220, 15%, 55%);
@@ -37,5 +42,5 @@ body {
 }
 
 .attribution {
-  font-size: 8px;
+  font-size: 10px;
 }/*# sourceMappingURL=style.css.map */

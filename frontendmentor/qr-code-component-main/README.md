@@ -27,13 +27,17 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-Recap over some of my major learnings while working through this project.
+- How to use SASS nesting, @use, partials, e.t.c
+- Learn how to eliminate render-blocking resources to improve Page Performance
+- Refresh on how to use google fonts
 
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [SASS](https://sass-lang.com/guide) - This helped me to understand SASS.
+- [Page Speed insight](https://pagespeed.web.dev/analysis/https-guileless-lolly-0e3648-netlify-app/e4bbqmb7v4?form_factor=mobile)
+- [Google Font](https://fonts.google.com/specimen/Outfit?query=outfit)
+- []() 
 
 ## Author
 

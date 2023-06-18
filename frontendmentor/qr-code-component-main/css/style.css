@@ -31,10 +31,9 @@ body {
   padding: 8px;
   font-size: 15px;
 }
-.info h3 {
+.info h1 {
   color: hsl(218, 44%, 22%);
   font-weight: 700;
-  font-size: 25px;
 }
 .info p {
   color: hsl(220, 15%, 55%);

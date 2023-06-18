@@ -1,0 +1,42 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  overflow: scroll;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.whole-card {
+  width: 320px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 24px;
+  overflow: hidden;
+  padding: 12px;
+}
+.whole-card .qr-pic {
+  overflow: hidden;
+  border-radius: 24px;
+}
+
+.info {
+  padding: 8px;
+  font-size: 15px;
+}
+.info h3 {
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+}
+.info p {
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+}
+
+.attribution {
+  font-size: 8px;
+}
+
+/*# sourceMappingURL=style.css.map */

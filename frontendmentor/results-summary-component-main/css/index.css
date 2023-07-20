@@ -4,4 +4,12 @@ body {
   color: hsl(0, 100%, 67%);
 }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
 /*# sourceMappingURL=index.css.map */

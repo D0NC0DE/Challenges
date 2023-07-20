@@ -1,6 +1,7 @@
 @use 'color';
 
-
+$mobile: 375px;
+$desktop: 1440px;
 
 body {
     color: color.$lightRed;

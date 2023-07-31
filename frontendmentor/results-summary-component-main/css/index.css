@@ -3,6 +3,7 @@
 main {
   max-width: 375px;
   text-align: center;
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
 .attribution {

@@ -3,11 +3,17 @@
 $mobile: 375px;
 $desktop: 1440px;
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 main {
     max-width: $mobile;
     text-align: center;
     background-image: linear-gradient(color.$colorStop1, color.$colorStop2)
 }
+
 .attribution {
     font-size: 11px; 
     text-align: center;

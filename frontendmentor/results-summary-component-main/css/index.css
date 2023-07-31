@@ -1,11 +1,14 @@
 /*primary color*/
 /*neutral color*/
+main {
+  width: 375px;
+  text-align: center;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
-
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */

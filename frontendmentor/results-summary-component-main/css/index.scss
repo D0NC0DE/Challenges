@@ -4,7 +4,7 @@ $mobile: 375px;
 $desktop: 1440px;
 
 main {
-    width: $mobile;
+    max-width: $mobile;
     text-align: center;
 }
 .attribution {

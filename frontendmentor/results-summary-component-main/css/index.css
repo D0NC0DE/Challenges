@@ -1,7 +1,7 @@
 /*primary color*/
 /*neutral color*/
 main {
-  width: 375px;
+  max-width: 375px;
   text-align: center;
 }
 

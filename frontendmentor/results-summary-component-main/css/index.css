@@ -1,10 +1,5 @@
 /*primary color*/
 /*neutral color*/
-* {
-  margin: 0;
-  padding: 0;
-}
-
 main {
   max-width: 375px;
   text-align: center;

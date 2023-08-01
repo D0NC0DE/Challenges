@@ -8,6 +8,7 @@ main {
     text-align: center;
     background-image: linear-gradient(color.$colorStop1, color.$colorStop2);
     div {
+        margin: auto;
         width: 100px;
         height: 100px;
         border-radius: 50%;

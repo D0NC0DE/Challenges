@@ -6,6 +6,7 @@ main {
   background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 main div {
+  margin: auto;
   width: 100px;
   height: 100px;
   border-radius: 50%;

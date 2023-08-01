@@ -1,6 +1,7 @@
 /*primary color*/
 /*neutral color*/
 main {
+  color: hsl(221, 100%, 96%);
   max-width: 375px;
   text-align: center;
   background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));

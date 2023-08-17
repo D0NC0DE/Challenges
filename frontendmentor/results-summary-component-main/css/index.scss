@@ -1,37 +1,35 @@
-@use 'color';
+@use "color";
 
 $mobile: 375px;
 $desktop: 1440px;
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
 main {
-    color: color.$paleBlue;
-    max-width: $mobile;
-    text-align: center;
-    background-image: linear-gradient(color.$colorStop1, color.$colorStop2);
+  color: color.$paleBlue;
+  max-width: $mobile;
+  text-align: center;
+  background-image: linear-gradient(color.$colorStop1, color.$colorStop2);
 
-    h3 {
-        margin: 0;
-    }
-    div {
-        margin: auto;
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-        background-image: linear-gradient(color.$colorStop3, color.$colorStop4);
-
-      
-    }
+  h3 {
+    margin: 0;
+  }
+  div {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: linear-gradient(color.$colorStop3, color.$colorStop4);
+  }
 }
 
 .attribution {
-    font-size: 11px; 
-    text-align: center;
-    
-    a {
-        color: hsl(228, 45%, 44%);
-    }
+  font-size: 11px;
+  text-align: center;
+
+  a {
+    color: hsl(228, 45%, 44%);
+  }
 }

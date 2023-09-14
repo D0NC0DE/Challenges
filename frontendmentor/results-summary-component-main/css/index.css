@@ -20,9 +20,12 @@ main {
   background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 main h3 {
-  font-size: 16px;
+  font-size: 12px;
   color: hsl(0, 0%, 100%);
   opacity: 0.5;
+}
+main h3.result-head {
+  font-size: 14px;
   padding: 16px;
 }
 main div {

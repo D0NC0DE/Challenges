@@ -3,7 +3,22 @@
 $mobile: 375px;
 $desktop: 1440px;
 
+@font-face {
+  font-family: 'HankenGrotesk';
+  src: url(../assets/fonts/HankenGrotesk-VariableFont_wght.ttf),
+       url(../assets/fonts/static/HankenGrotesk-Bold.ttf),
+       url(../assets/fonts/static/HankenGrotesk-ExtraBold.ttf),
+       url(../assets/fonts/static/HankenGrotesk-Medium.ttf);
+}
+
 body {
+  margin: 0;
+  font-family: 'HankenGrotesk';
+  font-size: 18px;
+  font-weight: 500;
+}
+
+h1, h3 {
   margin: 0;
 }
 

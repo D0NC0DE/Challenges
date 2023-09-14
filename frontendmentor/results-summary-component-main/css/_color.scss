@@ -11,9 +11,9 @@ $lightLavender: hsl(241, 100%, 89%);
 $darkGrayBlue: hsl(224, 30%, 27%);
 
 //gradient for background
-$colorStop1: hsl(252, 100%, 67%);
-$colorStop2: hsl(241, 81%, 54%);
+$colorStop1: hsla(252, 100%, 67%, 1);
+$colorStop2: hsla(241, 81%, 54%, 1);
 
 //for circle
-$colorStop3: hsla(256, 72%, 46%, 1);
+$colorStop3: hsla(256, 72%, 46%, 0.5);
 $colorStop4: hsla(241, 72%, 46%, 0);

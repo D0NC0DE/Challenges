@@ -5,10 +5,9 @@ $desktop: 1440px;
 
 @font-face {
   font-family: 'HankenGrotesk';
-  src: url(../assets/fonts/HankenGrotesk-VariableFont_wght.ttf),
-       url(../assets/fonts/static/HankenGrotesk-Bold.ttf),
-       url(../assets/fonts/static/HankenGrotesk-ExtraBold.ttf),
-       url(../assets/fonts/static/HankenGrotesk-Medium.ttf);
+  src: url("../assets/fonts/HankenGrotesk-VariableFont_wght.ttf") format("ttf") tech("variations"),
+       url("../assets/fonts/HankenGrotesk-VariableFont_wght.ttf") format("ttf-variations");
+  font-weight: 500 800;
 }
 
 body {
@@ -18,8 +17,9 @@ body {
   font-weight: 500;
 }
 
-h1, h3 {
+h1, h2, h3 {
   margin: 0;
+  font-weight: 500;
 }
 
 main {
@@ -27,6 +27,13 @@ main {
   max-width: $mobile;
   text-align: center;
   background-image: linear-gradient(color.$colorStop1, color.$colorStop2);
+
+  h3 {
+    font-size: 16px;
+    color: color.$white;
+    opacity: 0.5;
+    padding: 12px;
+  }
 
   div {
     margin: auto;

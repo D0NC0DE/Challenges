@@ -3,12 +3,12 @@
 $mobile: 375px;
 $desktop: 1440px;
 
-@font-face {
+/*@font-face {
   font-family: 'HankenGrotesk';
   src: url("../assets/fonts/HankenGrotesk-VariableFont_wght.ttf") format("ttf") tech("variations"),
        url("../assets/fonts/HankenGrotesk-VariableFont_wght.ttf") format("ttf-variations");
   font-weight: 500 800;
-}
+}*/
 
 body {
   margin: 0;
@@ -16,7 +16,7 @@ body {
   font-size: 18px;
   font-weight: 500;
 }
-
+ 
 h1, h2, h3 {
   margin: 0;
   font-weight: 500;
@@ -32,7 +32,7 @@ main {
     font-size: 16px;
     color: color.$white;
     opacity: 0.5;
-    padding: 12px;
+    padding: 16px;
   }
 
   div {
@@ -41,6 +41,11 @@ main {
     height: 100px;
     border-radius: 50%;
     background-image: linear-gradient(color.$colorStop3, color.$colorStop4);
+
+    h1 {
+      font-weight: 800;
+      padding-top: 20px;
+    }
   }
 }
 

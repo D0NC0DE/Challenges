@@ -10,9 +10,6 @@ main {
   text-align: center;
   background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
-main h3 {
-  margin: 0;
-}
 main div {
   margin: auto;
   width: 100px;
@@ -27,4 +24,6 @@ main div {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
-}/*# sourceMappingURL=index.css.map */
+}
+
+/*# sourceMappingURL=index.css.map */

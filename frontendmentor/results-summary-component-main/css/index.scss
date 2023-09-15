@@ -10,7 +10,7 @@ $desktop: 1440px;
 body {
   margin: 0;
   font-family: 'Hanken Grotesk', sans-serif;
-  font-size: 18px;
+  font-size: 12px;
   font-weight: 500;
 }
  
@@ -44,9 +44,14 @@ main {
     background-image: linear-gradient(color.$colorStop3, color.$colorStop4);
 
     h1 {
+      font-size: 36px;
       font-weight: 800;
       padding-top: 20px;
     }
+  }
+
+  h2 {
+    padding: 0px;
   }
 }
 

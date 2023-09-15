@@ -4,7 +4,7 @@
 body {
   margin: 0;
   font-family: "Hanken Grotesk", sans-serif;
-  font-size: 18px;
+  font-size: 12px;
   font-weight: 500;
 }
 
@@ -36,8 +36,12 @@ main div {
   background-image: linear-gradient(hsla(256, 72%, 46%, 0.5), hsla(241, 72%, 46%, 0));
 }
 main div h1 {
+  font-size: 36px;
   font-weight: 800;
   padding-top: 20px;
+}
+main h2 {
+  padding: 0px;
 }
 
 .attribution {
@@ -46,6 +50,4 @@ main div h1 {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
-
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */

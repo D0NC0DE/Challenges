@@ -1,6 +1,6 @@
 @use "color";
 
-$mobile: 305px;
+$mobile: 375px;
 $desktop: 1440px;
 
 
@@ -58,9 +58,9 @@ main {
   }
 
   p {
-    font-size: 12px;
+    font-size: 14px;
     margin: 0;
-    padding: 0px 50px 20px;
+    padding: 0px 60px 20px;
     color: color.$white;
     opacity: 0.5;
   }

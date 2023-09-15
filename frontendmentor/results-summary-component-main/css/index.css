@@ -38,7 +38,7 @@ main div {
   background-image: linear-gradient(hsla(256, 72%, 46%, 0.5), hsla(241, 72%, 46%, 0));
 }
 main div h1 {
-  font-size: 36px;
+  font-size: 40px;
   font-weight: 800;
   padding-top: 20px;
 }
@@ -48,6 +48,7 @@ main h2 {
 }
 main p {
   font-size: 14px;
+  margin: 0;
   padding: 0px 70px 20px;
   color: hsl(0, 0%, 100%);
   opacity: 0.5;

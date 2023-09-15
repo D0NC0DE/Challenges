@@ -46,7 +46,7 @@ main {
     background-image: linear-gradient(color.$colorStop3, color.$colorStop4);
 
     h1 {
-      font-size: 36px;
+      font-size: 40px;
       font-weight: 800;
       padding-top: 20px;
     }
@@ -59,6 +59,7 @@ main {
 
   p {
     font-size: 14px;
+    margin: 0;
     padding: 0px 70px 20px;
     color: color.$white;
     opacity: 0.5;

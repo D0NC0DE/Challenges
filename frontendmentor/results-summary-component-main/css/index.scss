@@ -8,7 +8,7 @@ $desktop: 1440px;
 
 
 body {
-  width: $mobile;
+  max-width: $mobile;
   margin: 0;
   font-family: 'Hanken Grotesk', sans-serif;
   font-size: 12px;
@@ -22,7 +22,6 @@ h1, h2, h3 {
 
 main {
   color: color.$paleBlue;
-  max-width: $mobile;
   text-align: center;
   background-image: linear-gradient(color.$colorStop1, color.$colorStop2);
   border-radius: 0px 0px 25px 25px;

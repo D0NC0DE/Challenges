@@ -2,7 +2,7 @@
 /*primary color*/
 /*neutral color*/
 body {
-  width: 375px;
+  max-width: 375px;
   margin: 0;
   font-family: "Hanken Grotesk", sans-serif;
   font-size: 12px;
@@ -16,7 +16,6 @@ h1, h2, h3 {
 
 main {
   color: hsl(221, 100%, 96%);
-  max-width: 375px;
   text-align: center;
   background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   border-radius: 0px 0px 25px 25px;

@@ -69,4 +69,5 @@ aside h2 {
 }
 aside div {
   display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=index.css.map */

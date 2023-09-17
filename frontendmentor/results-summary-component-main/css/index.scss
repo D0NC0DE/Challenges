@@ -81,9 +81,9 @@ aside {
   div {
     display: flex;
     justify-content: space-around;
-    margin: 16px 0px;
+    margin: 12px 0px;
     border-radius: 8px;
-    padding: 5px 14px;
+    padding: 2px 12px;
   }
 
   .subject {
@@ -154,5 +154,10 @@ button {
 
   main {
     border-radius: 25px;
+  }
+
+  aside {
+    border-radius: 0px 25px 25px 0px;
+    box-shadow: 32px 12px 26px -19px #dddddd;
   }
 }

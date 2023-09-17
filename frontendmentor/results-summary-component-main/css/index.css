@@ -2,10 +2,11 @@
 /*primary color*/
 /*neutral color*/
 body {
-  max-width: 375px;
-  margin: 0;
+  min-width: 250px;
+  margin: 0 auto;
+  display: grid;
   font-family: "Hanken Grotesk", sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
 }
 
@@ -21,23 +22,23 @@ main {
   border-radius: 0px 0px 25px 25px;
 }
 main h3 {
-  font-size: 12px;
+  font-size: 14px;
   color: hsl(0, 0%, 100%);
   opacity: 0.5;
 }
 main h3.result-head {
-  font-size: 14px;
+  font-size: 16px;
   padding: 16px;
 }
 main div {
-  margin: auto;
-  width: 100px;
-  height: 100px;
+  margin: 20px auto;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   background-image: linear-gradient(hsla(256, 72%, 46%, 0.5), hsla(241, 72%, 46%, 0));
 }
 main div h1 {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 800;
   padding-top: 20px;
 }
@@ -46,19 +47,11 @@ main h2 {
   font-weight: 700;
 }
 main p {
-  font-size: 14px;
+  font-size: 16px;
   margin: 0;
-  padding: 0px 60px 20px;
+  padding: 0px 36px 20px;
   color: hsl(0, 0%, 100%);
   opacity: 0.5;
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
 }
 
 aside {
@@ -66,7 +59,6 @@ aside {
 }
 aside h2 {
   color: hsl(224, 30%, 27%);
-  font-size: 16px;
 }
 aside div {
   display: flex;
@@ -112,4 +104,13 @@ button {
 }
 button:hover {
   background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 50px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }/*# sourceMappingURL=index.css.map */

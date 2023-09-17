@@ -2,7 +2,6 @@
 
 $mobile: 375px;
 $desktop: 1440px;
-$minWidth: 250px;
 
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,700;0,800;1,500&display=swap');
 
@@ -12,12 +11,14 @@ body{
 }
 
 section {
-  min-width: $minWidth;
+  max-width: $mobile;
   display: grid;
   margin: 0 auto;
   font-family: 'Hanken Grotesk', sans-serif;
   font-size: 14px;
   font-weight: 500;
+  box-shadow: 3px 3px 10px 3px #dddddd;
+  border-radius: 0px 0px 25px 25px;
 }
  
 h1, h2, h3 {
@@ -142,3 +143,4 @@ button {
     color: hsl(228, 45%, 44%);
   }
 }
+

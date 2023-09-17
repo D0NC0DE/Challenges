@@ -66,4 +66,7 @@ aside {
 }
 aside h2 {
   color: hsl(224, 30%, 27%);
+}
+aside div {
+  display: flex;
 }/*# sourceMappingURL=index.css.map */

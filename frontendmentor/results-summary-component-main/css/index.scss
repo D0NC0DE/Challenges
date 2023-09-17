@@ -86,8 +86,8 @@ aside {
     display: flex;
     justify-content: space-around;
     margin: 12px 0px;
-    border-radius: 5px;
-    padding: 5px 12px;
+    border-radius: 8px;
+    padding: 5px 14px;
   }
 
   .subject {
@@ -114,4 +114,16 @@ aside {
     background-color: color.$cobaltBlueOpac;
     color: color.$cobaltBlue;
   }
+
+  .score {
+    color: color.$darkGrayBlue;
+  }
+
+  .hundred {
+    color: color.$darkGrayBlueOpac;
+  }
+}
+
+button {
+  width: 100%;
 }

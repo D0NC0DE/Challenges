@@ -72,8 +72,8 @@ aside div {
   display: flex;
   justify-content: space-around;
   margin: 12px 0px;
-  border-radius: 5px;
-  padding: 5px 12px;
+  border-radius: 8px;
+  padding: 5px 14px;
 }
 aside .subject {
   flex: 5;
@@ -94,4 +94,14 @@ aside .third {
 aside .fourth {
   background-color: hsla(234, 85%, 45%, 0.1);
   color: hsl(234, 85%, 45%);
+}
+aside .score {
+  color: hsl(224, 30%, 27%);
+}
+aside .hundred {
+  color: hsla(224, 30%, 27%, 0.5);
+}
+
+button {
+  width: 100%;
 }/*# sourceMappingURL=index.css.map */

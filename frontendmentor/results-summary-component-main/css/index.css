@@ -69,4 +69,24 @@ aside h2 {
 }
 aside div {
   display: flex;
+  justify-content: space-around;
+  margin: 12px 0px;
+  border-radius: 5px;
+  padding: 5px 12px;
+}
+aside .subject {
+  flex: 5;
+  padding-left: 5px;
+}
+aside .first {
+  background-color: hsl(0, 100%, 67%);
+}
+aside .second {
+  background-color: hsl(39, 100%, 56%);
+}
+aside .third {
+  background-color: hsl(166, 100%, 37%);
+}
+aside .fourth {
+  background-color: hsl(234, 85%, 45%);
 }/*# sourceMappingURL=index.css.map */

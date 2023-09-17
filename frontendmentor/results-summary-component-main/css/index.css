@@ -71,7 +71,7 @@ aside h2 {
 aside div {
   display: flex;
   justify-content: space-around;
-  margin: 12px 0px;
+  margin: 16px 0px;
   border-radius: 8px;
   padding: 5px 14px;
 }
@@ -104,4 +104,12 @@ aside .hundred {
 
 button {
   width: 100%;
+  border-style: none;
+  border-radius: 24px;
+  padding: 16px;
+  background-color: hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+}
+button:hover {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }/*# sourceMappingURL=index.css.map */

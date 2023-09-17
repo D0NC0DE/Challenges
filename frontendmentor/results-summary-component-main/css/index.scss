@@ -85,7 +85,7 @@ aside {
   div {
     display: flex;
     justify-content: space-around;
-    margin: 12px 0px;
+    margin: 16px 0px;
     border-radius: 8px;
     padding: 5px 14px;
   }
@@ -126,4 +126,13 @@ aside {
 
 button {
   width: 100%;
+  border-style: none;
+  border-radius: 24px;
+  padding: 16px;
+  background-color: color.$darkGrayBlue;
+  color: color.$white;
+
+  &:hover {
+    background-image: linear-gradient(color.$colorStop1, color.$colorStop2);
+  }
 }

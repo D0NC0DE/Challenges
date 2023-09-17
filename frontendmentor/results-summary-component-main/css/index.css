@@ -8,12 +8,10 @@ body {
 
 section {
   max-width: 375px;
-  display: grid;
   margin: 0 auto;
   font-family: "Hanken Grotesk", sans-serif;
   font-size: 14px;
   font-weight: 500;
-  box-shadow: 3px 3px 10px 3px #dddddd;
   border-radius: 0px 0px 25px 25px;
 }
 
@@ -120,4 +118,14 @@ button:hover {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 600px) {
+  section {
+    display: grid;
+    height: 90vh;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 300px 300px;
+  }
 }/*# sourceMappingURL=index.css.map */

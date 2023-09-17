@@ -59,4 +59,8 @@ main p {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+aside {
+  padding: 12px;
 }/*# sourceMappingURL=index.css.map */

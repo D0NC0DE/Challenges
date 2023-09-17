@@ -63,4 +63,7 @@ main p {
 
 aside {
   padding: 12px;
+}
+aside h2 {
+  color: hsl(224, 30%, 27%);
 }/*# sourceMappingURL=index.css.map */

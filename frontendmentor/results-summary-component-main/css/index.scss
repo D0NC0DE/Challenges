@@ -9,8 +9,7 @@ $minWidth: 250px;
 
 body {
   min-width: $minWidth;
-  display: grid;
-  justify-content: center;
+  margin: 0 auto;
   font-family: 'Hanken Grotesk', sans-serif;
   font-size: 14px;
   font-weight: 500;
@@ -138,4 +137,3 @@ button {
     color: hsl(228, 45%, 44%);
   }
 }
-

@@ -3,8 +3,8 @@
 /*neutral color*/
 body {
   min-width: 250px;
-  margin: 0 auto;
   display: grid;
+  justify-content: center;
   font-family: "Hanken Grotesk", sans-serif;
   font-size: 14px;
   font-weight: 500;

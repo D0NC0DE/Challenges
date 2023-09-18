@@ -10,7 +10,7 @@ body{
   margin: 0;
 }
 
-section {
+main {
   max-width: $mobile;
   margin: 0 auto;
   font-family: 'Hanken Grotesk', sans-serif;
@@ -25,7 +25,7 @@ h1, h2, h3 {
   font-weight: 500;
 }
 
-main {
+section {
   color: color.$paleBlue;
   text-align: center;
   background-image: linear-gradient(color.$colorStop1, color.$colorStop2);
@@ -144,7 +144,7 @@ button {
 }
 
 @media (min-width: 600px) {
-  section {
+  main {
     display: grid;
     height: 90vh;
     justify-content: center;
@@ -152,7 +152,7 @@ button {
     grid-template-columns: 300px 300px;
   }
 
-  main {
+  section {
     border-radius: 25px;
   }
 

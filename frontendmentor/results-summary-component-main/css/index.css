@@ -6,7 +6,7 @@ body {
   margin: 0;
 }
 
-section {
+main {
   max-width: 375px;
   margin: 0 auto;
   font-family: "Hanken Grotesk", sans-serif;
@@ -20,38 +20,38 @@ h1, h2, h3 {
   font-weight: 500;
 }
 
-main {
+section {
   color: hsl(221, 100%, 96%);
   text-align: center;
   background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   border-radius: 0px 0px 25px 25px;
 }
-main h3 {
+section h3 {
   font-size: 14px;
   color: hsl(0, 0%, 100%);
   opacity: 0.5;
 }
-main h3.result-head {
+section h3.result-head {
   font-size: 16px;
   padding: 16px;
 }
-main div {
+section div {
   margin: 20px auto;
   width: 120px;
   height: 120px;
   border-radius: 50%;
   background-image: linear-gradient(hsla(256, 72%, 46%, 0.5), hsla(241, 72%, 46%, 0));
 }
-main div h1 {
+section div h1 {
   font-size: 50px;
   font-weight: 800;
   padding-top: 20px;
 }
-main h2 {
+section h2 {
   padding: 16px 0px 8px;
   font-weight: 700;
 }
-main p {
+section p {
   font-size: 16px;
   margin: 0;
   padding: 0px 36px 20px;
@@ -121,14 +121,14 @@ button:hover {
 }
 
 @media (min-width: 600px) {
-  section {
+  main {
     display: grid;
     height: 90vh;
     justify-content: center;
     align-content: center;
     grid-template-columns: 300px 300px;
   }
-  main {
+  section {
     border-radius: 25px;
   }
   aside {

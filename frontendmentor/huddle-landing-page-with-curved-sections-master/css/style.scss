@@ -1,0 +1,22 @@
+@use 'color';
+
+// view size
+$mobile: 375px;
+$desktop: 1440px;
+
+//fonts
+$openSan: 'Open Sans', sans-serif;
+$poppins: 'Poppins', sans-serif;
+
+
+
+
+//footer
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+
+    a { 
+        color: color.$linkColor; 
+    }
+}

@@ -3,6 +3,39 @@
   padding: 0;
 }
 
+button {
+  border-style: none;
+  background: none;
+  cursor: pointer;
+}
+
+header {
+  margin: 24px;
+  display: flex;
+  height: 24px;
+  align-items: center;
+  justify-content: space-between;
+}
+header img {
+  width: 98px;
+  height: 16px;
+}
+header button {
+  text-align: center;
+  color: hsl(322, 100%, 66%);
+  border-radius: 50px;
+  border: 1px solid hsl(322, 100%, 66%);
+  padding: 7px 19px;
+  font-size: 9px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  box-shadow: 3px 3px 22px -1px #dddddd;
+}
+header button:hover, header button:active {
+  color: hsl(321, 100%, 78%);
+  border-color: hsl(321, 100%, 78%);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;

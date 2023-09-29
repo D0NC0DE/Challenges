@@ -49,6 +49,27 @@ header {
     }
 }
 
+.firstView {
+    margin: 127px auto 0;
+    text-align: center;
+    width: 289px;
+    max-width: 90%;
+
+    h1 {
+        font-family: $poppins;
+        font-size: 24px;
+        font-weight: 700;
+        //line-height: 36px;
+    }
+
+    h2 {
+        margin-top: 22px;
+        font-family: $openSan;
+        font-weight: 400;
+        font-size: 14px;
+    }
+}
+
 //footer
 .attribution { 
     font-size: 11px; 
@@ -58,3 +79,4 @@ header {
         color: color.$linkColor; 
     }
 }
+

@@ -36,6 +36,24 @@ header button:hover, header button:active {
   border-color: hsl(321, 100%, 78%);
 }
 
+.firstView {
+  margin: 127px auto 0;
+  text-align: center;
+  width: 289px;
+  max-width: 90%;
+}
+.firstView h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+.firstView h2 {
+  margin-top: 22px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;

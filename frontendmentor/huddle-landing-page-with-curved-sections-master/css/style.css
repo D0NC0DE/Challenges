@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Open Sans", sans-serif;
+  color: hsl(192, 100%, 9%);
 }
 
 button {
@@ -39,8 +41,8 @@ header button:hover, header button:active {
 .firstView {
   margin: 127px auto 0;
   text-align: center;
-  width: 289px;
-  max-width: 90%;
+  width: 1035px;
+  max-width: 80%;
 }
 .firstView h1 {
   font-family: "Poppins", sans-serif;
@@ -48,13 +50,14 @@ header button:hover, header button:active {
   font-weight: 700;
 }
 .firstView h2 {
-  margin-top: 22px;
-  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
+  width: 588px;
+  max-width: 100%;
+  margin: 22px auto 0;
 }
 .firstView button {
-  margin-top: 42px;
+  margin-top: 48px;
   padding: 10px 39px;
   background-color: hsl(322, 100%, 66%);
   font-family: "Open Sans", sans-serif;
@@ -62,7 +65,66 @@ header button:hover, header button:active {
   font-weight: 600;
   color: hsl(207, 100%, 98%);
 }
+.firstView img {
+  margin-top: 105px;
+  max-width: 100%;
+}
 
+.metrics {
+  margin-top: 126px;
+}
+.metrics h1 {
+  font-size: 48px;
+}
+.metrics p {
+  margin-top: 4px;
+  color: hsl(192, 100%, 9%);
+  opacity: 0.3;
+}
+
+.communities img {
+  margin-top: 0;
+  width: 32px;
+  height: 28px;
+}
+
+.messages img {
+  margin-top: 96px;
+  width: 24px;
+  height: 21px;
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    height: 40px;
+    margin: 79px 61px 0 81px;
+  }
+  header img {
+    height: 40px;
+    width: 240px;
+  }
+  header button {
+    font-size: 18px;
+    padding: 3px 31px;
+  }
+  .firstView {
+    margin-top: 242px;
+  }
+  .firstView h1 {
+    font-size: 54px;
+  }
+  .firstView h2 {
+    font-size: 20px;
+    margin-top: 26px;
+  }
+  .firstView button {
+    font-size: 18px;
+    padding: 25px 100px;
+  }
+  .firstView img {
+    margin-top: 118px;
+  }
+}
 .attribution {
   font-size: 11px;
   text-align: center;

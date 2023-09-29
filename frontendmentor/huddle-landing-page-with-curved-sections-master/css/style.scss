@@ -11,6 +11,8 @@ $poppins: 'Poppins', sans-serif;
 * {
     margin: 0;
     padding: 0;
+    font-family: $openSan;
+    color: color.$darkCyan;
 }
 
 button {
@@ -52,8 +54,8 @@ header {
 .firstView {
     margin: 127px auto 0;
     text-align: center;
-    width: 289px;
-    max-width: 90%;
+    width: 1035px;
+    max-width: 80%;
 
     h1 {
         font-family: $poppins;
@@ -62,14 +64,15 @@ header {
     }
 
     h2 {
-        margin-top: 22px;
-        font-family: $openSan;
         font-weight: 400;
         font-size: 14px;
+        width: 588px;
+        max-width: 100%;
+        margin: 22px auto 0;
     }
 
     button {
-        margin-top: 42px;
+        margin-top: 48px;
         padding: 10px 39px;
         background-color: color.$pink;
         font-family: $openSan;
@@ -77,6 +80,79 @@ header {
         font-weight: 600;
         color: color.$paleBlue;
 
+    }
+
+    img {
+        margin-top: 105px;
+        max-width: 100%;
+    }
+}
+
+.metrics {
+    margin-top: 126px;
+    h1 {
+        font-size: 48px;
+    }
+
+    p {
+        margin-top: 4px;
+        color: color.$darkCyan;
+        opacity: 0.3;
+    }
+}
+
+.communities {
+    img{
+        margin-top: 0;
+        width: 32px;
+        height: 28px;
+    }
+}
+
+.messages {
+    img {
+        margin-top: 96px;
+        width: 24px;
+        height: 21px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    header {
+        height: 40px;
+        margin: 79px 61px 0 81px;
+
+        img {
+            height: 40px;
+            width: 240px;
+        }
+
+        button {
+            font-size: 18px;
+            padding: 3px 31px;
+        }
+    }
+
+    .firstView {
+        margin-top: 242px;
+
+        h1 {
+            font-size: 54px;
+        }
+
+        h2 {
+            font-size: 20px;
+            margin-top: 26px;
+        }
+
+        button {
+           font-size: 18px;
+           padding: 25px 100px;
+        }
+
+        img {
+            margin-top: 118px;
+        }
     }
 }
 

@@ -106,7 +106,6 @@ button {
   padding: 16px;
   background-color: hsl(224, 30%, 27%);
   color: hsl(0, 0%, 100%);
-  cursor: pointer;
 }
 button:hover {
   background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));

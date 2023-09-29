@@ -89,11 +89,12 @@ header {
 }
 
 .metrics {
-    width: 154px;
+    width: 130px;
     margin: auto;
     margin-top: 126px;
     h1 {
         font-size: 48px;
+        font-family: $openSan;
     }
 
     p {
@@ -107,8 +108,7 @@ header {
 .communities {
     text-align: left;
     img{
-        margin-top: 0;
-        margin-left: 12px;
+        margin-top: 0; 
         width: 32px;
         height: 28px;
     }
@@ -163,6 +163,38 @@ header {
 
         img {
             margin-top: 118px;
+        }
+    }
+
+    .metrics {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+
+        h1 {
+            font-size: 72px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        .communities {
+            img{
+                width: 50px;
+                height: 42px;
+            }
+        }
+        
+        .messages {
+            img {
+                width: 36px;
+                height: 33px;
+            }
+        }
+
+        #breakP {
+            width: 100%;
         }
     }
 }

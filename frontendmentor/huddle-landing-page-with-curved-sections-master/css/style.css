@@ -71,12 +71,13 @@ header button:hover, header button:active {
 }
 
 .metrics {
-  width: 154px;
+  width: 130px;
   margin: auto;
   margin-top: 126px;
 }
 .metrics h1 {
   font-size: 48px;
+  font-family: "Open Sans", sans-serif;
 }
 .metrics p {
   color: hsl(192, 100%, 9%);
@@ -90,7 +91,6 @@ header button:hover, header button:active {
 }
 .communities img {
   margin-top: 0;
-  margin-left: 12px;
   width: 32px;
   height: 28px;
 }
@@ -138,6 +138,28 @@ header button:hover, header button:active {
   }
   .firstView img {
     margin-top: 118px;
+  }
+  .metrics {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .metrics h1 {
+    font-size: 72px;
+  }
+  .metrics p {
+    font-size: 20px;
+  }
+  .metrics .communities img {
+    width: 50px;
+    height: 42px;
+  }
+  .metrics .messages img {
+    width: 36px;
+    height: 33px;
+  }
+  .metrics #breakP {
+    width: 100%;
   }
 }
 .attribution {

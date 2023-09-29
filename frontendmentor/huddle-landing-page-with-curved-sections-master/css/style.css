@@ -5,6 +5,7 @@
 
 button {
   border-style: none;
+  border-radius: 50px;
   background: none;
   cursor: pointer;
 }
@@ -23,10 +24,9 @@ header img {
 header button {
   text-align: center;
   color: hsl(322, 100%, 66%);
-  border-radius: 50px;
   border: 1px solid hsl(322, 100%, 66%);
-  padding: 7px 19px;
-  font-size: 9px;
+  padding: 2px 19px;
+  font-size: 10px;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   box-shadow: 3px 3px 22px -1px #dddddd;
@@ -52,6 +52,15 @@ header button:hover, header button:active {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
+}
+.firstView button {
+  margin-top: 42px;
+  padding: 10px 39px;
+  background-color: hsl(322, 100%, 66%);
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: hsl(207, 100%, 98%);
 }
 
 .attribution {

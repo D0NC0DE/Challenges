@@ -12,6 +12,10 @@ button {
   cursor: pointer;
 }
 
+h1 {
+  font-family: "Poppins", sans-serif;
+}
+
 header {
   margin: 24px;
   display: flex;
@@ -112,7 +116,19 @@ header button:hover, header button:active {
 
 .growSection {
   background: url(../images/bg-section-top-mobile-1.svg) left top no-repeat;
-  background-size: contain;
+  background-size: 100% 100px;
+  padding-top: 90px;
+  text-align: center;
+}
+
+.container {
+  background-color: hsl(207, 100%, 98%);
+  padding-top: 100px;
+}
+
+.textdiv {
+  width: 80%;
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 768px) {

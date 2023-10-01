@@ -134,20 +134,39 @@ header {
 }
 
 .growSection {
-    background: url(../images/bg-section-top-mobile-1.svg) left top no-repeat;
-    background-size: 100% 100px;
+    background: url(../images/bg-section-top-mobile-1.svg) left top no-repeat,
+                url(../images/bg-section-bottom-mobile-1.svg) left bottom no-repeat;
+    background-size: 100% 100px, 100% 52px;
     padding-top: 90px;
+    padding-bottom: 50px;
     text-align: center;
+    
+
+    img {
+        width: 1000px;
+        max-width: 80%;
+    }
 }
 
 .container {
     background-color: color.$paleBlue;
     padding-top: 100px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 .textdiv {
     width: 80%;
     margin: 0 auto;
+    margin-top: 74px;
+    h1 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 16px;
+    }
 }
 
 
@@ -219,6 +238,15 @@ header {
         #breakP {
             width: 100%;
         }
+    }
+
+    .growSection {
+        background: url(../images/bg-section-top-desktop-1.svg) left top no-repeat,
+                    url(../images/bg-section-bottom-desktop-1.svg) left bottom no-repeat;
+        background-size: 100% 165px, 100% 139px;
+        padding-top: 160px;
+        padding-bottom: 130px;
+        margin-top: 126px;
     }
 }
 

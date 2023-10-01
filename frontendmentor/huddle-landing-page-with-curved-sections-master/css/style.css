@@ -71,7 +71,7 @@ header button:hover, header button:active {
 }
 
 .metrics {
-  width: 130px;
+  width: 152px;
   margin: auto;
   margin-top: 126px;
 }
@@ -91,6 +91,7 @@ header button:hover, header button:active {
 }
 .communities img {
   margin-top: 0;
+  margin-left: 18px;
   width: 32px;
   height: 28px;
 }
@@ -107,6 +108,11 @@ header button:hover, header button:active {
 #breakP {
   width: 60px;
   margin: auto;
+}
+
+.growSection {
+  background: url(../images/bg-section-top-mobile-1.svg) left top no-repeat;
+  background-size: contain;
 }
 
 @media only screen and (min-width: 768px) {

@@ -89,7 +89,7 @@ header {
 }
 
 .metrics {
-    width: 130px;
+    width: 152px;
     margin: auto;
     margin-top: 126px;
     h1 {
@@ -109,6 +109,7 @@ header {
     text-align: left;
     img{
         margin-top: 0; 
+        margin-left: 18px;
         width: 32px;
         height: 28px;
     }
@@ -126,6 +127,12 @@ header {
 #breakP {
     width: 60px;
     margin: auto;
+}
+
+.growSection {
+    background: url(../images/bg-section-top-mobile-1.svg) left top no-repeat;
+    background-size: contain;
+    //background-color: color.$paleBlue;
 }
 
 @media only screen and (min-width: 768px) {

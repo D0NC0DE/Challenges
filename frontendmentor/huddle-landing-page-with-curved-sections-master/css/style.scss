@@ -201,6 +201,12 @@ header {
 
 .lastSection {
     text-align: center;
+    padding: 71px 0 252px;
+
+    h1 {
+        font-size: 30px;
+        padding-bottom: 40px;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -326,6 +332,14 @@ header {
         .container {
             padding-top: 26px;
             padding-bottom: 116px;
+        }
+    }
+
+    .lastSection {
+        padding: 191px 0 173px;
+    
+        h1 {
+            font-size: 44px;
         }
     }
     

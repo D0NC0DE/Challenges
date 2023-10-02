@@ -121,10 +121,6 @@ header button:hover, header button:active {
   padding-bottom: 50px;
   text-align: center;
 }
-.growSection img {
-  width: 1000px;
-  max-width: 80%;
-}
 
 .container {
   background-color: hsl(207, 100%, 98%);
@@ -132,6 +128,10 @@ header button:hover, header button:active {
   padding-bottom: 60px;
   display: flex;
   flex-direction: column-reverse;
+}
+.container img {
+  width: 1000px;
+  max-width: 80%;
 }
 
 .textdiv {
@@ -146,7 +146,19 @@ header button:hover, header button:active {
   font-size: 16px;
 }
 
-@media only screen and (min-width: 768px) {
+.flowSection {
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center;
+  padding-top: 134px;
+  padding-bottom: 118px;
+}
+.flowSection img {
+  width: 1000px;
+  max-width: 80%;
+}
+
+@media only screen and (min-width: 1024px) {
   header {
     height: 40px;
     margin: 79px 61px 0 81px;
@@ -204,6 +216,33 @@ header button:hover, header button:active {
     padding-top: 160px;
     padding-bottom: 130px;
     margin-top: 126px;
+  }
+  .container {
+    padding: 70px 84px 40px 124px;
+    flex-direction: row;
+    align-items: center;
+    gap: 10%;
+  }
+  .textdiv {
+    text-align: left;
+    width: 50%;
+    margin-top: 0;
+  }
+  .textdiv h1 {
+    font-size: 40px;
+  }
+  .textdiv p {
+    font-size: 18px;
+  }
+  .imagediv {
+    width: 50%;
+  }
+  .flowSection {
+    display: flex;
+    gap: 10%;
+    flex-direction: row-reverse;
+    padding: 70px 84px 40px 100px;
+    align-items: center;
   }
 }
 .attribution {

@@ -46,13 +46,28 @@ header {
         font-size: 10px;
         font-family: $openSan;
         font-weight: 400;
-        box-shadow: 3px 3px 22px -1px #dddddd;;
+        box-shadow: 3px 3px 22px -1px #dddddd;
 
         &:hover, &:active {
             color: color.$lightPink;
             border-color: color.$lightPink;
         }
     }
+}
+
+.mainButton {
+    padding: 10px 39px;
+    background-color: color.$pink;
+    font-family: $openSan;
+    font-size: 12px;
+    font-weight: 600;
+    color: color.$paleBlue;
+    box-shadow: 3px 3px 22px -1px #dddddd;
+
+    &:hover, &:active {
+        background-color: color.$lightPink;
+    }
+
 }
 
 .firstView {
@@ -72,18 +87,7 @@ header {
         font-size: 14px;
         width: 588px;
         max-width: 100%;
-        margin: 22px auto 0;
-    }
-
-    button {
-        margin-top: 48px;
-        padding: 10px 39px;
-        background-color: color.$pink;
-        font-family: $openSan;
-        font-size: 12px;
-        font-weight: 600;
-        color: color.$paleBlue;
-
+        margin: 22px auto 48px;
     }
 
     img {
@@ -195,6 +199,10 @@ header {
     }
 }
 
+.lastSection {
+    text-align: center;
+}
+
 @media only screen and (min-width: 1024px) {
     header {
         height: 40px;
@@ -211,6 +219,11 @@ header {
         }
     }
 
+    .mainButton {
+        font-size: 18px;
+        padding: 25px 100px;
+     }
+
     .firstView {
         margin-top: 242px;
 
@@ -221,11 +234,6 @@ header {
         h2 {
             font-size: 20px;
             margin-top: 26px;
-        }
-
-        button {
-           font-size: 18px;
-           padding: 25px 100px;
         }
 
         img {

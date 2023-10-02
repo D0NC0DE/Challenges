@@ -42,6 +42,19 @@ header button:hover, header button:active {
   border-color: hsl(321, 100%, 78%);
 }
 
+.mainButton {
+  padding: 10px 39px;
+  background-color: hsl(322, 100%, 66%);
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: hsl(207, 100%, 98%);
+  box-shadow: 3px 3px 22px -1px #dddddd;
+}
+.mainButton:hover, .mainButton:active {
+  background-color: hsl(321, 100%, 78%);
+}
+
 .firstView {
   margin: 127px auto 0;
   text-align: center;
@@ -58,16 +71,7 @@ header button:hover, header button:active {
   font-size: 14px;
   width: 588px;
   max-width: 100%;
-  margin: 22px auto 0;
-}
-.firstView button {
-  margin-top: 48px;
-  padding: 10px 39px;
-  background-color: hsl(322, 100%, 66%);
-  font-family: "Open Sans", sans-serif;
-  font-size: 12px;
-  font-weight: 600;
-  color: hsl(207, 100%, 98%);
+  margin: 22px auto 48px;
 }
 .firstView img {
   margin-top: 105px;
@@ -170,6 +174,10 @@ header button:hover, header button:active {
   padding-bottom: 116px;
 }
 
+.lastSection {
+  text-align: center;
+}
+
 @media only screen and (min-width: 1024px) {
   header {
     height: 40px;
@@ -183,6 +191,10 @@ header button:hover, header button:active {
     font-size: 18px;
     padding: 3px 31px;
   }
+  .mainButton {
+    font-size: 18px;
+    padding: 25px 100px;
+  }
   .firstView {
     margin-top: 242px;
   }
@@ -192,10 +204,6 @@ header button:hover, header button:active {
   .firstView h2 {
     font-size: 20px;
     margin-top: 26px;
-  }
-  .firstView button {
-    font-size: 18px;
-    padding: 25px 100px;
   }
   .firstView img {
     margin-top: 118px;

@@ -158,6 +158,18 @@ header button:hover, header button:active {
   max-width: 80%;
 }
 
+.userSection {
+  background: url(../images/bg-section-top-mobile-2.svg) left top no-repeat, url(../images/bg-section-bottom-mobile-2.svg) left bottom no-repeat;
+  background-size: 100% 100px, 100% 101px;
+  padding-top: 90px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+.userSection .container {
+  padding-top: 26px;
+  padding-bottom: 116px;
+}
+
 @media only screen and (min-width: 1024px) {
   header {
     height: 40px;

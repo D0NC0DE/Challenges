@@ -300,11 +300,25 @@ header {
     }
 
     .flowSection {
-        display: flex;
         gap: 10%;
         flex-direction: row-reverse;
-        padding: 70px 84px 40px 100px;
         align-items: center;
+        padding-left: 100px;
+        padding-right: 84px;
+    }
+
+    .userSection {
+        background: url(../images/bg-section-top-desktop-2.svg) left top no-repeat,
+                    url(../images/bg-section-bottom-desktop-2.svg) left bottom no-repeat;
+        background-size: 100% 156px, 100% 139px;
+        padding-top: 150px;
+        padding-bottom: 130px;
+        text-align: center;
+    
+        .container {
+            padding-top: 26px;
+            padding-bottom: 116px;
+        }
     }
     
 }

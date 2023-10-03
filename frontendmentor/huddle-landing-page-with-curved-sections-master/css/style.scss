@@ -244,17 +244,41 @@ footer {
 }
 
 input {
-    //box-sizing: border-box;
+    box-sizing: border-box;
     height: 50px;
     width: 100%;
     border: none;
     border-radius: 6px;
+    font-size: 18px;
+    width: 325px;
+    max-width: 100%;
 }
 
-input[email]:focus {
-    border: 1px solid color.$lightPink;
+input[type=email] {
+    padding: 15px;
+    &:focus {
+        border: 1px solid color.$lightPink;
+        outline: none;
+        
+    }
 }
 
+input[type=submit] {
+    background-color: color.$pink;
+    color: color.$paleBlue;
+    width: 160px;
+    margin-top: 15px;
+    margin-left: 40px;
+    position: relative;
+    left: 0;
+}
+form {
+    div {
+        text-align: right;
+        width: 325px;
+        max-width: 100%;
+    }
+}
 .attribution { 
     font-size: 11px; 
     text-align: center; 

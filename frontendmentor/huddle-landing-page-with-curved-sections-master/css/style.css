@@ -212,14 +212,38 @@ footer {
 }
 
 input {
+  box-sizing: border-box;
   height: 50px;
   width: 100%;
   border: none;
   border-radius: 6px;
+  font-size: 18px;
+  width: 325px;
+  max-width: 100%;
 }
 
-input[email]:focus {
+input[type=email] {
+  padding: 15px;
+}
+input[type=email]:focus {
   border: 1px solid hsl(321, 100%, 78%);
+  outline: none;
+}
+
+input[type=submit] {
+  background-color: hsl(322, 100%, 66%);
+  color: hsl(207, 100%, 98%);
+  width: 160px;
+  margin-top: 15px;
+  margin-left: 40px;
+  position: relative;
+  left: 0;
+}
+
+form div {
+  text-align: right;
+  width: 325px;
+  max-width: 100%;
 }
 
 .attribution {

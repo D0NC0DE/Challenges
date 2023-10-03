@@ -276,6 +276,7 @@ form div {
 hr {
   width: 80%;
   margin: auto;
+  color: hsl(207, 100%, 98%);
 }
 
 .attribution {

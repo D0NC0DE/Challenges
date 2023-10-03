@@ -209,6 +209,64 @@ header {
     }
 }
 
+
+
+//footer
+footer {
+    background: url(../images/bg-footer-top-mobile.svg) left top no-repeat;
+    background-size: 100% 53px;
+    padding-top: 50px;
+}
+
+.footerContainer {
+    background-color: color.$darkCyan;
+
+    h1, p {
+        color: color.$paleBlue;
+    }
+}
+
+.flexContainer {
+    width: 80%;
+    padding-top: 115px;
+    margin: 0 auto;
+
+    h1 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 16px;
+        margin-top: 27px;
+        margin-bottom: 35px;
+    }
+}
+
+input {
+    //box-sizing: border-box;
+    height: 50px;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+}
+
+input[email]:focus {
+    border: 1px solid color.$lightPink;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+
+    a { 
+        color: color.$linkColor; 
+    }
+}
+
+
+
+
 @media only screen and (min-width: 1024px) {
     header {
         height: 40px;
@@ -343,15 +401,5 @@ header {
         }
     }
     
-}
-
-//footer
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
-
-    a { 
-        color: color.$linkColor; 
-    }
 }
 

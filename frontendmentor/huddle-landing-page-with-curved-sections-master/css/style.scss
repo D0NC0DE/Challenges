@@ -250,7 +250,6 @@ input {
     border: none;
     border-radius: 6px;
     font-size: 18px;
-    width: 325px;
     max-width: 100%;
 }
 
@@ -268,16 +267,24 @@ input[type=submit] {
     color: color.$paleBlue;
     width: 160px;
     margin-top: 15px;
-    margin-left: 40px;
+    
 }
 form {
+    width: 525px;
+    max-width: 100%;
     div {
         text-align: right;
-        width: 325px;
+        //width: 325px;
         max-width: 100%;
+        
     }
 }
 
+
+#whiteLogo {
+    width: 204px;
+    height: 38px;
+}
 
 .attribution { 
     font-size: 11px; 
@@ -288,6 +295,16 @@ form {
     }
 }
 
+@media (min-width: 525px) {
+    form {
+        display: flex;
+        gap: 40px;
+    }
+
+    input[type=submit] {
+        margin-top: 0;
+    }
+}
 
 @media only screen and (min-width: 1024px) {
     header {

@@ -286,6 +286,32 @@ form {
     height: 32px;
 }
 
+.contact {
+    margin-top: 100px;
+
+    p {
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 44px;
+    }
+}
+
+.channel {
+    display: flex;
+    width: 100%;
+    gap: 19px;
+
+    p {
+        margin: 0;
+        margin-bottom: 19px;
+    }
+
+    img {
+        width: 19px;
+        height: 22px;
+    }
+}
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 

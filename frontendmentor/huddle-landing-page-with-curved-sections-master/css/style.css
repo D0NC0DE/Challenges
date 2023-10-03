@@ -279,9 +279,22 @@ hr {
   color: hsl(207, 100%, 98%);
 }
 
+.socialMedia {
+  display: flex;
+  gap: 17px;
+  margin-top: 25px;
+  margin-bottom: 44px;
+}
+.socialMedia img {
+  width: 24px;
+  height: 24px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);

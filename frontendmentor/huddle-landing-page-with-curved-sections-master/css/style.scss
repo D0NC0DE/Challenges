@@ -318,9 +318,23 @@ hr{
     color: color.$paleBlue;
 }
 
+.socialMedia {
+    display: flex;
+    gap: 17px;
+    margin-top: 25px;
+    margin-bottom: 44px;
+
+    img {
+        width: 24px;
+        height: 24px;
+    }
+}
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
+    padding-top: 12px;
+    padding-bottom: 12px;
 
     a { 
         color: color.$linkColor; 

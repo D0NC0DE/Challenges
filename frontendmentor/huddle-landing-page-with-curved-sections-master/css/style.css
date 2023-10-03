@@ -412,4 +412,8 @@ hr {
   .lastSection h1 {
     font-size: 44px;
   }
+  .flexContainer {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -486,5 +486,9 @@ hr{
         }
     }
     
+    .flexContainer{
+        display: flex;
+        flex-direction: row-reverse;
+    }
 }
 

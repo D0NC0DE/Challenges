@@ -62,7 +62,7 @@ header {
     font-size: 12px;
     font-weight: 600;
     color: color.$paleBlue;
-    box-shadow: 3px 3px 22px -1px #dddddd;
+    box-shadow: 5px 5px 22px -1px #dddddd;
 
     &:hover, &:active {
         background-color: color.$lightPink;
@@ -268,6 +268,9 @@ input[type=submit] {
     width: 160px;
     margin-top: 15px;
     
+    &:hover, &:active {
+        background-color: color.$lightPink;
+    }
 }
 form {
     width: 525px;
@@ -519,6 +522,12 @@ hr{
             width: 34px;
             height: 34px;
         }
+    }
+
+    footer {
+        background: url(../images/bg-footer-top-desktop.svg) left top no-repeat;
+        background-size: 100% 158px;
+        padding-top: 150px;
     }
 }
 

@@ -104,8 +104,9 @@
             To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
             send you spam or pass on your email address
           </p>
-          <form>
-            <input type="email" name="email">
+          <form id="emailForm">
+            <input type="email" name="email" id="email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">
+            <span id="emailError"></span>
             <div>
               <input type="submit" name="submit" value="Subscribe">
             </div>
@@ -131,9 +132,9 @@
           </div>
 
           <div class="socialMedia">
-            <a href="#"><img src="images/facebook.svg"></a>
-            <a href="#"><img src="images/instagram.svg"></a>
-            <a href="#"><img src="images/xtwitter.svg"></a>
+            <img src="images/facebook.svg">
+            <img src="images/instagram.svg">
+            <img src="images/xtwitter.svg">
           </div>
         </div>
       </div>
@@ -144,5 +145,7 @@
       </p>
     </div>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

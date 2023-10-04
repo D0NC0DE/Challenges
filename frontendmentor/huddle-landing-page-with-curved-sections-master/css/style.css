@@ -49,7 +49,7 @@ header button:hover, header button:active {
   font-size: 12px;
   font-weight: 600;
   color: hsl(207, 100%, 98%);
-  box-shadow: 3px 3px 22px -1px #dddddd;
+  box-shadow: 5px 5px 22px -1px #dddddd;
 }
 .mainButton:hover, .mainButton:active {
   background-color: hsl(321, 100%, 78%);
@@ -234,6 +234,9 @@ input[type=submit] {
   color: hsl(207, 100%, 98%);
   width: 160px;
   margin-top: 15px;
+}
+input[type=submit]:hover, input[type=submit]:active {
+  background-color: hsl(321, 100%, 78%);
 }
 
 form {
@@ -437,5 +440,10 @@ hr {
   .socialMedia img {
     width: 34px;
     height: 34px;
+  }
+  footer {
+    background: url(../images/bg-footer-top-desktop.svg) left top no-repeat;
+    background-size: 100% 158px;
+    padding-top: 150px;
   }
 }/*# sourceMappingURL=style.css.map */

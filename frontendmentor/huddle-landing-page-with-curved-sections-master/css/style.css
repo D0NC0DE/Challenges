@@ -229,6 +229,10 @@ input[type=email]:focus {
   outline: none;
 }
 
+#emailError {
+  color: hsl(0, 100%, 63%);
+}
+
 input[type=submit] {
   background-color: hsl(322, 100%, 66%);
   color: hsl(207, 100%, 98%);

@@ -262,6 +262,10 @@ input[type=email] {
     }
 }
 
+#emailError{
+    color: color.$lightRed;
+}
+
 input[type=submit] {
     background-color: color.$pink;
     color: color.$paleBlue;
@@ -272,6 +276,7 @@ input[type=submit] {
         background-color: color.$lightPink;
     }
 }
+
 form {
     width: 525px;
     max-width: 100%;
@@ -288,6 +293,8 @@ form {
     width: 204px;
     height: 32px;
 }
+
+
 
 .contact {
     margin-top: 100px;

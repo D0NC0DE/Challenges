@@ -417,12 +417,15 @@ hr {
     flex-direction: row-reverse;
     justify-content: space-between;
   }
+  .flexContainer p {
+    font-size: 18px;
+  }
+  .flexContainer h1 {
+    font-size: 21px;
+  }
   .contact {
     margin-top: 0;
     width: 40%;
-  }
-  .contact p {
-    font-size: 21px;
   }
   .newsletter {
     width: 40%;
@@ -430,5 +433,9 @@ hr {
   #whiteLogo {
     width: 240px;
     height: 42px;
+  }
+  .socialMedia img {
+    width: 34px;
+    height: 34px;
   }
 }/*# sourceMappingURL=style.css.map */

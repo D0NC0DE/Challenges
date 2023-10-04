@@ -415,8 +415,20 @@ hr {
   .flexContainer {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-between;
   }
   .contact {
     margin-top: 0;
+    width: 40%;
+  }
+  .contact p {
+    font-size: 21px;
+  }
+  .newsletter {
+    width: 40%;
+  }
+  #whiteLogo {
+    width: 240px;
+    height: 42px;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,34 @@
+//declaring variables
+$mobileWidth: 375px;
+$desktopWidth: 1440px;
+
+$fontSize: 15px;
+$lowFontWeight: 400;
+$mediumFontWeight: 700;
+$largeFontWeight: 800;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 27px 15px;
+}
+
+header {
+
+}
+
+
+
+
+
+//footer
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+  a { 
+    color: hsl(228, 45%, 44%); 
+  }
+}

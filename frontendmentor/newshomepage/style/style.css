@@ -4,6 +4,7 @@
 }
 
 body {
+  font-family: "Inter", sans-serif;
   padding: 27px 15px;
 }
 
@@ -11,10 +12,13 @@ header {
   height: 30px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 nav p {
   float: left;
+  margin-left: 40px;
+  font-size: 18px;
 }
 
 .menu {

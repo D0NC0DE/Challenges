@@ -17,12 +17,22 @@ body {
 }
 
 header {
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
 
+nav {
+  p {
+    float: left;
+  }
+}
+.menu {
+  display: none;  
 }
 
 
-
-
+ 
 
 //footer
 .attribution { 
